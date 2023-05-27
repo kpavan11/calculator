@@ -40,9 +40,11 @@ while(1)
                 break;
     default :
              printf("cheak operator\n");
+             result = 0;
              break;
    }
    printf("Result is: %d\n",result);
+   
  }
  return 0;
 }        
